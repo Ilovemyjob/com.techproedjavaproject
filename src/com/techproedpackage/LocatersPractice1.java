@@ -1,5 +1,6 @@
 package com.techproedpackage;
 
+import com.sun.org.apache.xalan.internal.xsltc.runtime.Operators;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,6 +24,7 @@ public class LocatersPractice1 {
         enter.click();
 //        4. print number of results
         WebElement print = driver.findElement(By.className("srp-controls__count-heading"));
+
         String print1 =print.getText();
         String print2= print1.substring(0,4);
         System.out.println(print2);

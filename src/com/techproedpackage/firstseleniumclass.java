@@ -7,13 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class firstseleniumclass {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
-
         WebDriver driver = new ChromeDriver();
 
 //        Test Case  1
 //        2. Go to website https://google.com
          driver.get("https://google.com");
-//
 //        3. Save the title in a string variable
             String expectedGoogleTile=driver.getTitle();
 //        4. Navigate to https://etsy.com
