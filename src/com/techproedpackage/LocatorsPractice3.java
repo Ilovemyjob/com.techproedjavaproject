@@ -51,6 +51,8 @@ public class LocatorsPractice3 {
             System.out.println("Pass");
         }else {
             System.out.println("Fail");
+
+
             System.out.println("expectedMessage =" + expectedMessage);
             System.out.println("actualMessage =" + actualMessage);
 
